@@ -10,14 +10,14 @@ The scope of the work includes:
 
 | Task |
 | --- |
-| Creating a virtual environment |
-| Creating a Flask application with simple request and response |
-| Installing a relational DB (PostgrSQL) in local |
+| Creating a virtual environment (**Status: done**)|
+| Creating a Flask application with simple request and response (**Status: done**)|
+| Installing a relational DB (PostgrSQL) in local (**Status: done**)|
+| Installing MongoDB in local (**Status: done**)|
 | Connecting to PostgreSQL with Python |
 | Table Creation in PostgreSQL using Python |
 | ACID Transactions in PostgreSQL using Python |
 | Flask application with create user & view users. Store users in DB |
-| Installing MongoDB in local |
 | Understanding Nosql- Collections and Documents |
 | Mongo - Python connectivity |
 
