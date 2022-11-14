@@ -10,16 +10,16 @@ The scope of the work includes:
 
 | Task |
 | --- |
-| Creating a virtual environment (**Status: done**)|
-| Creating a Flask application with simple request and response (**Status: done**)|
-| Installing a relational DB (PostgrSQL) in local (**Status: done**)|
-| Installing MongoDB in local (**Status: done**)|
-| Connecting to PostgreSQL with Python |
-| Table Creation in PostgreSQL using Python |
-| ACID Transactions in PostgreSQL using Python |
-| Flask application with create user & view users. Store users in DB |
-| Understanding Nosql- Collections and Documents |
-| Mongo - Python connectivity |
+| 01. Creating a virtual environment (**Status: done**)|
+| 02. Creating a Flask application with simple request and response (**Status: done**)|
+| 03. Installing a relational DB (PostgrSQL) in local (**Status: done**)|
+| 04. Installing MongoDB in local (**Status: done**)|
+| 05. Connecting to PostgreSQL with Python |
+| 06. Table Creation in PostgreSQL using Python |
+| 07. ACID Transactions in PostgreSQL using Python |
+| 08. Flask application with create user & view users. Store users in DB |
+| 09. Understanding Nosql- Collections and Documents |
+| 10. Mongo - Python connectivity |
 
 1. Create a Repo for Each application in your git account, and share the access with me.
 2. Learn about: git push, git pull, git merge, git branch, git revert, git commit, git staging
