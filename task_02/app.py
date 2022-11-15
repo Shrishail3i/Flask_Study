@@ -28,6 +28,7 @@ def get_stores():
 def add_stores():
     request_data = request.get_json()
     new_store = {"name":request_data["name"], "items":[]}
+    # FIXME: What happens if the 'name' object is missing from the request JSON.
     stores.append(new_store)
     return new_store, 201
 
