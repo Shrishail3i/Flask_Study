@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # In this app, we want to manipulate the information regarding stores, so let us create a 
 # python variable for storing this information. It is a list of dictionary having name (string) and
-# items (dictionary) as keys.
+# items (list of dictionary) as keys.
 stores = [
     {
         "name": "MyStore",
