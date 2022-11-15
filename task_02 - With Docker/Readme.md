@@ -12,6 +12,8 @@ Once a docker image is built run the container using
 docker run -dp 5005:5000 rest-apis-flask-python 
 ```
 
+This binds port `5000` of the Docker image to port `5005` of the host machine. This way you when you access `127.0.0.1:5005` with your browser, you'll access whatever the Docker image is serving in port `5000`.
+
 ### Other Notes
 --- 
 I am on Windows 10 running this under Ubuntu 18.08 environment using WSL.
