@@ -1,3 +1,19 @@
+## How to run
+In VS Code terminal, type following command to build a new docker image
+
+```
+docker build -t rest-apis-flask-python .
+```
+Note: Make sure in your current path `Dockerfile` is present.
+
+Once a docker image is built run the container using
+
+```
+docker run -dp 5005:5000 rest-apis-flask-python 
+```
+
+### Other Notes
+--- 
 I am on Windows 10 running this under Ubuntu 18.08 environment using WSL.
 Here, While building from the dockerfile, it asked me:
 
