@@ -14,7 +14,7 @@ The scope of the work includes:
 | 02. Creating a Flask application with simple request and response (**Status: done**)|
 | 03. Installing a relational DB (PostgrSQL) in local (**Status: done**)|
 | 04. Installing MongoDB in local (**Status: done**)|
-| 05. Connecting to PostgreSQL with Python |
+| 05. Connecting to PostgreSQL with Python (**Status: done**)|
 | 06. Table Creation in PostgreSQL using Python |
 | 07. ACID Transactions in PostgreSQL using Python |
 | 08. Flask application with create user & view users. Store users in DB |
