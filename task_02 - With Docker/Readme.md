@@ -9,10 +9,12 @@ Note: Make sure in your current path `Dockerfile` is present.
 Once a docker image is built run the container using
 
 ```
-docker run -dp 5005:5000 rest-apis-flask-python 
+docker run -dp 8000:5000 rest-apis-flask-python 
 ```
 
-This binds port `5000` of the Docker image to port `5005` of the host machine. This way you when you access `127.0.0.1:5005` with your browser, you'll access whatever the Docker image is serving in port `5000`.
+This binds port `5000` of the Docker image to port `8000` of the host machine. This way you when you access `127.0.0.1:8000` with your browser, you'll access whatever the Docker image is serving in port `5000`.
+
+Note: In Windows 10 and WSL-2 environment, check with different ports since some of the ports may not be available by default.
 
 ### Other Notes (Debugging)
 --- 
